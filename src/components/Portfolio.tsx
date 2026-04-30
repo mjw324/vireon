@@ -15,18 +15,6 @@ export default function Portfolio() {
       }
     },
     {
-      id: 'washington-i-street',
-      imgSrc: '/images/washington-1.jpg',
-      address: '1720 I Street NW',
-      location: 'Washington, DC',
-      details: {
-        squareFootage: '72,439',
-        dateAcquired: '12/26/25',
-        dateSold: 'N/A',
-        numberOfTenants: '4'
-      }
-    },
-    {
       id: 'reston',
       imgSrc: '/images/reston.png',
       address: '2100 Reston Parkway',
