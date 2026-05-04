@@ -3,6 +3,18 @@ import Image from 'next/image';
 export default function Portfolio() {
   const portfolioItems = [
     {
+      id: 'westwood',
+      imgSrc: '/images/westwood.jpg',
+      address: '8614 Westwood Center Drive',
+      location: 'Tysons Corner, VA',
+      details: {
+        squareFootage: 'N/A',
+        dateAcquired: 'N/A',
+        dateSold: 'N/A',
+        numberOfTenants: 'N/A'
+      }
+    },
+    {
       id: 'washington-k-street',
       imgSrc: '/images/washington-2.jpg',
       address: '1411 K Street NW',
