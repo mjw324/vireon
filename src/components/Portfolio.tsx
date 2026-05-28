@@ -8,10 +8,10 @@ export default function Portfolio() {
       address: '8614 Westwood Center Drive',
       location: 'Tysons Corner, VA',
       details: {
-        squareFootage: 'N/A',
-        dateAcquired: 'N/A',
+        squareFootage: '210,647',
+        dateAcquired: '5/20/26',
         dateSold: 'N/A',
-        numberOfTenants: 'N/A'
+        numberOfTenants: '22'
       }
     },
     {
