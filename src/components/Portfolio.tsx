@@ -3,6 +3,18 @@ import Image from 'next/image';
 export default function Portfolio() {
   const portfolioItems = [
     {
+      id: 'sumner',
+      imgSrc: '/images/sumner-square.png',
+      address: '',
+      location: 'Sumner Square',
+      details: {
+        squareFootage: 'N/A',
+        dateAcquired: 'N/A',
+        dateSold: 'N/A',
+        numberOfTenants: 'N/A'
+      }
+    },
+    {
       id: 'westwood',
       imgSrc: '/images/westwood.jpg',
       address: '8614 Westwood Center Drive',
