@@ -5,8 +5,8 @@ export default function Portfolio() {
     {
       id: 'sumner',
       imgSrc: '/images/sumner-square.png',
-      address: '',
-      location: 'Sumner Square',
+      address: 'Sumner Square',
+      location: '1615 & 1625 M Street NW\n125 17th Street NW\nWashington, DC',
       details: {
         squareFootage: 'N/A',
         dateAcquired: 'N/A',
@@ -195,18 +195,18 @@ function PortfolioItem({
       />
       {/* Address and Location Overlay */}
       <div className="absolute bottom-0 inset-x-0 bg-black bg-opacity-50 text-white p-4 text-center transition-opacity duration-300 ease-in-out group-hover:opacity-0">
-        <p className="font-bold">
+        <p className="font-bold whitespace-pre-line">
           {address}
-          <br />
+          {'\n'}
           {location}
         </p>
       </div>
       {/* Hover Details */}
       <div className="absolute inset-0 bg-black bg-opacity-50 backdrop-filter backdrop-blur-sm text-white flex items-center justify-center transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
         <div className="p-6">
-          <h4 className="font-bold mb-2">
+          <h4 className="font-bold mb-2 whitespace-pre-line">
             {address}
-            <br />
+            {'\n'}
             {location}
           </h4>
           <div>
